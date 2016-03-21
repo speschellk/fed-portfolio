@@ -1,2 +1,2 @@
-# fed-portfolio
+# frontend
 Portfolio of frontend dev projects
