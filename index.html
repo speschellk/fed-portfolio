@@ -1,83 +1,54 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href="style.css">
-		<link href='https://fonts.googleapis.com/css?family=Raleway:400,700|Ubuntu:400,700|Arimo:400,700|Alegreya+Sans:400,700|Josefin+Sans:400,700|Fira+Sans:400,700|Quicksand:400,700|Karla:400,700' rel='stylesheet' type='text/css'>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-		<script src="main.js"></script>
-		<title>Fox In Flocks</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href='https://fonts.googleapis.com/css?family=Quicksand:400,600|Karla:400,700' rel='stylesheet' type='text/css'>
+		<title>Frontend Development Portfolio of Kay Christensen</title>
 	</head>
 	<body>
+		<nav class="nav">
+		    <ul id="primary-nav">
+		    	<li class="home">
+		    		<a href="#home" class="hvr-underline-from-center">
+		    			<span>Kay Christensen</span>
+		    		</a>
+		    	</li>
+		        <li class="projects">
+		        	<a href="#projects" class="hvr-underline-from-center">
+		            	<span>Projects</span>
+		        	</a>
+		        </li>
+		        <li class="about">
+		        	<a href="#about" class="hvr-underline-from-center">
+		            	<span>About</span>
+		        	</a>
+		        </li>
+		    </ul>
+		</nav>
+
+		<span id="social">
+			<a target="_blank" href="https://www.linkedin.com/in/kaychristensen" class="hvr-float linkedin"><img src="/Users/kaychristensen/Documents/FED/portfolio/frontend/img/linkedin-icon.png"></a>
+			<a target="_blank" href="https://www.facebook.com/kay.christensen.98" class="hvr-float facebook"><img src="/Users/kaychristensen/Documents/FED/portfolio/frontend/img/facebook-icon.png"></a>
+			<a target="_blank" href="https://twitter.com/kaymchristensen" class="hvr-float twitter"><img src="/Users/kaychristensen/Documents/FED/portfolio/frontend/img/twitter-icon.png"></a>
+			<a target="_blank" href="https://www.github.com/speschellk" class="hvr-float github"><img src="/Users/kaychristensen/Documents/FED/portfolio/frontend/img/github-icon.png"></a>
+		</span>
+
 		<div id="home">
-			<a href="#home">
-				<span><h4>Fox In Flocks</h4></span>
-			</a>
-		</div>	
-		<div id="social">
-			<!-- LinkedIn icon -->
-			<a target="_blank" href = "https://www.linkedin.com/in/kaychristensen"><img src = "linkedin.png" width=30px height=30px></a>
-
-			<!-- Twitter icon -->
-			<a target="_blank" href = "https://twitter.com/kaymchristensen"><img src = "twitter.png" width=30px height=30px></a>
-
-			<!-- Facebook icon -->
-			<a target="_blank" href = "https://www.facebook.com/kay.christensen.98"><img src = "facebook.png" width=30px height=30px></a>
 		</div>
 
-		<nav class="group">
-	      <ul id="primary-nav">
-	        <li class="projects">
-	          <a href="#projects">
-	            <span>Projects</span>
-	          </a>
-	        </li>
-	        <li class="about">
-	          <a href="#about">
-	            <span>About</span>
-	          </a>
-	        </li>
-	        <li class="contact">
-	          <a href="#contact">
-	            <span>Contact</span>
-	          </a>
-	        </li>
-	      </ul>
-	    </nav>
-
-	    <div id="center_image">
-			<img src="http://static.vecteezy.com/system/resources/previews/000/093/696/original/vector-yellow-abstract-background.jpg" alt="Yellow" height="" width="">
+		<div id="projects">
 		</div>
-
-		<section id="content">
-			<div id="projects">
-				<p>
-					Projects go here.
-				</p>
-			</div>
-
-			<div id="about">
-				<p>
-					Kay Christensen is a very cool person. This is her frontend development portfolio. Be sure to check back soon to see what else she's working on.
-				</p>
-			</div>
-
-			<div id="contact">
-				<h1>Make contact.</h1>
-				<form
-					action=""
-					method="POST">
-					<input name="firstname" type="text" id="first-input" size="40" placeholder="First">
-					<br>
-					<input name="lastname" type="text" id="last-input" size="40" placeholder="Last">
-					<br>
-					<input name="email" type="email" id="email-address" size="40" placeholder="Email">
-					<br>
-					<textarea rows="10" cols="38" id="text-entry" placeholder="What do you want to say?"></textarea>
-					<br>
-					<input name="submit" type="submit" value="Submit">
-				</form>
-			</div>
-		</section>
-
+		<div id="about">
+			<img src="/Users/kaychristensen/Documents/FED/portfolio/frontend/img/Kay Christensen.jpeg" class="kc-pic"/>
+			<p>
+				Kay Christensen is a musician, artist, builder, tech aficionada, and aspiring developer.
+				<br><br>
+				In a prevous career, she spent nine years in the test prep industry, managing people, programs, and training teams, and teaching people how to ace grad-level entrance tests. This experience imbued her with a love of test architecture and people alike. As for education, Kay went to two great schools--University of Pennsylvania and Stanford University--and concentrated in things that people don't usually do there--music and learning, design and technology, respectively.
+				<br><br>
+				Kay uses her spare time to noodle around in code, enjoy great bars and sushi restaurants, build structures for her frontyard chickens, play in her house band, and knit robot monsters for children she knows.
+			</p>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="main.js"></script>
 	</body>
 </html>

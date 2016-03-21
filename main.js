@@ -1,28 +1,18 @@
-$(function(){
+$(document).ready(function(){
+	console.log("hello world");
 
-	$("#projects").hide();
-	$("#about").hide();
-	$("#contact").hide();
+	//Smooth scroll vertically when click link
+	$('a[href^="#"]').click(function (e) {
+    	e.preventDefault();
 
-	$("a").click(function(){
-		if ($(this).attr("href")==="#projects"){
-			$("#projects").show();
-			$("#about").hide();
-			$("#contact").hide();
-		} else if ($(this).attr("href")==="#about"){
-			$("#about").show();
-			$("#projects").hide();
-			$("#contact").hide();
-		} else if ($(this).attr("href")==="#contact"){
-			$("#contact").show();
-			$("#projects").hide();
-			$("#about").hide();
-		} else if ($(this).attr("href")==="#home"){
-			$("#projects").hide();
-			$("#about").hide();
-			$("#contact").hide();
-		}
-	});
-	
+    	var target = this.hash;
+    	var $target = $(target);
+
+    	$('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+    	}, 900, 'swing', function () {
+          window.location.hash = target;
+    	});
+  	});
 
 });
