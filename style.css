@@ -6,11 +6,10 @@ html, body {
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
-	/*background-color: #efefef;*/
 	background-image: url("/Users/kaychristensen/Documents/FED/portfolio/frontend/img/hero-lemons.jpeg");
 	background-repeat: no-repeat;
 	background-size: 100% 125%;
-	/*background-attachment: fixed;*/
+	background-attachment: fixed;
 }
 
 
@@ -81,12 +80,14 @@ html, body {
 	opacity: .6;
 }
 
+/* home page */
 #home {
 	position: relative;
 	height: 100%;
 	width: 100%;
 }
 
+/* projects page */
 #projects {
 	position: relative;
 	height: 100%;
@@ -94,6 +95,25 @@ html, body {
 	background-color: #efefef;
 }
 
+#project-thumbnails {
+	position: relative;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: 90%;
+	width: 80%;
+	top: 12%;
+}
+
+#project-thumbnails img {
+	display: inline-block;
+	height: 250px;
+	width: 500px;
+	margin: 4px;
+	border: 2px solid #e5e5e6;
+}
+
+/* about page */
 #about {
 	position: relative;
 	height: 100%;
