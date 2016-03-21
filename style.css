@@ -6,7 +6,7 @@ html, body {
 	font-size: 14px;
 	font-style: normal;
 	font-weight: 400;
-	background-image: url("/img/hero-lemons.jpeg");
+	background-image: url("/frontend/img/hero-lemons.jpeg");
 	background-repeat: no-repeat;
 	background-size: 100% 125%;
 	background-attachment: fixed;
