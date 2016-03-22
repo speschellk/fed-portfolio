@@ -12,7 +12,6 @@ html, body {
 	background-attachment: fixed;
 }
 
-
 /* nav bar */
 .nav {
 	position: fixed;
@@ -55,8 +54,6 @@ html, body {
 .home span {
 	font-size: 20px;
 }
-
-
 
 /* social media icons */
 #social {
@@ -109,7 +106,7 @@ html, body {
 	display: inline-block;
 	height: 250px;
 	width: 500px;
-	margin: 4px;
+	margin: 8px;
 	border: 2px solid #e5e5e6;
 }
 
@@ -185,7 +182,6 @@ html, body {
   left: 0;
   right: 0;
 }
-
 
 /* Float */
 .hvr-float {
